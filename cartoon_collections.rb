@@ -12,8 +12,10 @@ end
 
 def find_the_cheese(array)
   array.detect do |cheese|
-    
-    
+    if cheese == "cheddar" || "gouda" || "camembert"
+    else
+      NIL
+    end
   end
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
